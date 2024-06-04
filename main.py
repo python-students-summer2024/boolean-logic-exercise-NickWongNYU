@@ -2,11 +2,13 @@ from solutions import *
 
 
 def main():
+    
     # call the is_sweltering() function and output a response
     if is_sweltering():
         print("Oh no, it is sweltering hot today!")
     else:
         print("Thankfully, it's not too hot today.")
+
 
     # call the is_warm() function and output a response
     if is_warm():
@@ -26,6 +28,7 @@ def main():
     else:
         print("No need to take your umbrella!")
 
+    
     # call the is_typical_new_york_summer() function and output a response
     if is_typical_new_york_summer():
         print("A typical summery day in New York!")
